@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Horizontal Layouts | Skote - Vuejs Admin & Dashboard Template | Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Skote Premium Multipurpose Admin & Dashboard Template documentation of vuejs" name="description" />
+    <meta content="Themesbrand" name="author" />
+    <meta name="keywords" content="Skote admin documentation, Skote Vuejs documentation">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body data-topbar="dark" data-spy="scroll" data-target=".right-side-nav" data-offset="175">
+
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        <header id="page-topbar">
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box">
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="assets/images/logo-light.svg" alt="" height="25">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/logo-light.png" alt="" height="20"> <span class="badge badge-soft-success ml-2">Vuejs &amp; Laravel-vue</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <button type="button" class="btn btn-sm px-3 font-size-24
+                        header-item waves-effect d-lg-none" id="vertical-menu-btn">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+                </div>
+
+                <div class="d-flex">
+                    <div class="d-inline-block">
+                        <a
+                            href="https://themeforest.net/item/skote-vuejs-admin-dashboard-template/25444550"
+                            target="_blank" class="header-item">Support</a>
+                    </div>
+
+                    <div class="d-none d-md-inline-block">
+                        <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSfiP9bDHzIQdQoMXFrYvJx00wyFzSu_cqBWP0N0uUHpqjrbzQ/viewform"
+                            target="_blank" class="header-item">Need Customization?</a>
+                    </div>
+
+                    <div class="d-inline-block">
+                        <a href="https://1.envato.market/skote-vuejs" target="_blank"
+                            class="header-item">Buy Now</a>
+                    </div>
+
+                    <div class="d-inline-block">
+                        <h5 class="header-item m-0"><span class="badge badge-danger">v3.4.0</span></h5>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="vertical-menu">
+
+            <div data-simplebar class="h-100">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu list-unstyled" id="side-menu">
+                        <li class="menu-title">Docs</li>
+
+                        <li>
+                            <a href="index.html" class="waves-effect">
+                                <i class="mdi mdi-text-box-outline"></i>
+                                <span>Introduction</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="setup-vue.html" class="waves-effect">
+                                <i class="mdi mdi-cog-outline"></i>
+                                <span>Setup Vuejs</span>
+                            </a>
+
+                            <a href="setup-laravel-vue.html" class="waves-effect">
+                                <i class="mdi mdi-cog-outline"></i>
+                                <span>Setup Laravel-vue</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="create-new-page.html" class="waves-effect">
+                                <i class="mdi mdi-card-plus-outline"></i>
+                                <span>Create a New page</span>
+                            </a>
+                        </li>
+
+                        <li class="menu-title">Layouts</li>
+
+                        <li>
+                            <a href="vertical.html" class="waves-effect">
+                                <i class="mdi mdi-flip-horizontal"></i>
+                                <span>Vertical</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="horizontal.html" class="waves-effect">
+                                <i class="mdi mdi-flip-vertical"></i>
+                                <span>Horizontal</span>
+                            </a>
+                        </li>
+
+                        <li class="menu-title">Themes</li>
+
+                        <li>
+                            <a href="light.html" class="waves-effect">
+                                <i class="mdi mdi-white-balance-sunny"></i>
+                                <span>Light Version</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="dark.html" class="waves-effect">
+                                <i class="mdi mdi-weather-night"></i>
+                                <span>Dark Version</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="rtl.html" class="waves-effect">
+                                <i class="mdi mdi-web"></i>
+                                <span>RTL Version</span>
+                            </a>
+                        </li>
+
+                        <li class="menu-title">Other</li>
+
+                        <li>
+                            <a href="plugins.html" class="waves-effect">
+                                <i class="mdi mdi-format-list-bulleted"></i>
+                                <span>Plugins</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="changelog.html" class="waves-effect">
+                                <i class="mdi mdi-format-list-bulleted"></i>
+                                <span>Changelog</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- Sidebar -->
+            </div>
+        </div>
+        <!-- Left Sidebar End -->
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+
+            <div class="page-content">
+                <div class="container-fluid">
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-flex
+                                    align-items-center justify-content-between">
+                                <h3 class="mb-0 font-size-24">Plugins</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="p-lg-1">
+
+                                        <div class="d-xl-flex">
+
+                                            <div class="w-100">
+
+                                                <p class="text-muted">Here
+                                                    is the list of Plugins
+                                                    (with a link to the
+                                                    official
+                                                    documentation) which
+                                                    helped us to make admin
+                                                    better.</p>
+
+                                                <div class="table-responsive">
+                                                    <table class="table
+                                                            mb-0">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Plugins</th>
+                                                                <th>Url</th>
+                                                            </tr>
+                                                        </thead>
+
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>@ckeditor/ckeditor5-build-classic</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/@ckeditor/ckeditor5-build-classic"
+                                                                        target="_blank">"@ckeditor/ckeditor5-build-classic":
+                                                                        "^31.1.0"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>@ckeditor/ckeditor5-vue"</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/@ckeditor/ckeditor5-vue"
+                                                                        target="_blank">"@ckeditor/ckeditor5-vue"":
+                                                                        "^2.0.1"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>@fullcalendar/bootstrap</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/@fullcalendar/bootstrap"
+                                                                        target="_blank">"@fullcalendar/bootstrap":
+                                                                        "^5.10.1"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>@fullcalendar/core</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/@fullcalendar/core"
+                                                                        target="_blank">"@fullcalendar/core":
+                                                                        "^5.10.1"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>@fullcalendar/daygrid</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/@fullcalendar/daygrid"
+                                                                        target="_blank">"@fullcalendar/daygrid":
+                                                                        "^5.10.1"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>@fullcalendar/interaction</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/@fullcalendar/interaction"
+                                                                        target="_blank">"@fullcalendar/interaction":
+                                                                        "^5.10.1"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>@fullcalendar/timegrid</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/@fullcalendar/timegrid"
+                                                                        target="_blank">"@fullcalendar/timegrid":
+                                                                        "^5.10.1"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>@fullcalendar/list</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/@fullcalendar/list"
+                                                                        target="_blank">"@fullcalendar/list":
+                                                                        "^5.10.1"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>@fullcalendar/vue</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/@fullcalendar/vue"
+                                                                        target="_blank">"@fullcalendar/vue":
+                                                                        "^5.10.1"</a>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>apexcharts</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/apexcharts"
+                                                                        target="_blank">"apexcharts":
+                                                                        "^3.33.0"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>axios</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/axios"
+                                                                        target="_blank">"axios":
+                                                                        "^0.25.0"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>bootstrap
+                                                                </td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/bootstrap"
+                                                                        target="_blank">"bootstrap":
+                                                                        "^5.1.3"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>bootstrap-vue-3</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/bootstrap-vue-3" target="_blank">
+                                                                        "bootstrap-vue-3": "^0.1.0",
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>chart.js</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/chart.js"
+                                                                        target="_blank">"chart.js":
+                                                                        "^3.7.0"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>vue-chartist</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/vue-chartist"
+                                                                        target="_blank">"vue-chartist":
+                                                                        "^3.0.0"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>core-js</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/core-js" target="_blank">"core-js":
+                                                                        "^3.6.5"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>echarts</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/echarts"
+                                                                        target="_blank">"echarts":
+                                                                        "^5.3.0"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>firebase</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/firebase"
+                                                                        target="_blank">"firebase":
+                                                                        "^9.6.3"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>leaflet</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/leaflet"
+                                                                        target="_blank">"leaflet":
+                                                                        "^1.7.1"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>metismenujs</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/metismenujs"
+                                                                        target="_blank">"metismenujs":
+                                                                        "^1.3.1"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>sass</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/sass" target="_blank">"sass": "^1.48.0"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>sass-loader</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/sass-loader" target="_blank">"sass-loader": "^10.0.1",</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>simplebar-vue3</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/simplebar-vue3" target="_blank">"simplebar-vue3": "^0.1.5",</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>sweetalert2</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/sweetalert2" target="_blank">"sweetalert2": "^11.3.6",</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>v-click-outside</td>
+                                                                <td>
+                                                                    <a href="https://www.npmjs.com/package/v-click-outside" target="_blank">"v-click-outside": "^4.0.1"</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>vue</td>
+                                                                <td>
+                                                                    <a href="https://vuejs.org/" target="_blank">"vue": "^3.0.0",</a>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue3-apexcharts</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue3-apexcharts" target="_black">"vue3-apexcharts": "^1.4.1"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue3-carousel</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue3-carousel" target="_blank">"vue3-carousel": "^0.1.36"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue-chartist</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue-chartist" target="_blank">"vue-chartist": "^3.0.0"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>@j-t-mcc/vue3-chartjs</td>
+                                                                <td><a href="https://www.npmjs.com/package/@j-t-mcc/vue3-chartjs" target="_blank">"@j-t-mcc/vue3-chartjs": "^1.2.0"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue-cropperjs</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue-cropperjs" target="_blank">"vue-cropperjs": "^5.0.0"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue-easy-lightbox</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue-easy-lightbox" target="_blank">"vue-easy-lightbox": "^1.2.4"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue3-echarts</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue3-echarts" target="_blank">"vue3-echarts": "^1.0.4"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue-form-wizard</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue-form-wizard" target="_blank">"vue-form-wizard": "^0.8.4"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue-hotel-datepicker</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue-hotel-datepicker" target="_blank">"vue-hotel-datepicker": "^4.5.1"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue-i18n</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue-i18n" target="_blank">"vue-i18n": "^9.2.0-beta.35"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue-meta</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue-i18n" target="_blank">"vue-meta": "^2.4.0"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>@vueform/multiselect</td>
+                                                                <td><a href="https://www.npmjs.com/package/@vueform/multiselect" target="_blank">"@vueform/multiselect": "^2.3.1"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue-number-input-spinner</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue-number-input-spinner" target="_blank">"vue-number-input-spinner": "^2.2.0"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue-router</td>
+                                                                <td><a href="https://router.vuejs.org/" target="_blank">"vue-router": "^4"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>sweetalert2</td>
+                                                                <td><a href="https://www.npmjs.com/package/sweetalert2" target="_blank">"sweetalert2": "^11.3.6"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue-switches</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue-switches" target="_blank">"vue-switches": "^2.0.1"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue3-datepicker</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue3-datepicker" target="_blank">"vue3-datepicker": "^0.3.2"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue3-dropzone</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue2-dropzone" target="_blank">"vue2-dropzone": "^0.0.7"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue3-google-map</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue3-google-map" target="_blank">"vue3-google-map": "^0.8.3"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>@vue-leaflet/vue-leaflet</td>
+                                                                <td><a href="https://www.npmjs.com/package/@vue-leaflet/vue-leaflet" target="_blank">"@vue-leaflet/vue-leaflet": "^0.6.1"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue3-scroll-spy</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue3-scroll-spy" target="_blank">"vue3-scroll-spy": "^1.0.8"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vue3-draggable</td>
+                                                                <td><a href="https://www.npmjs.com/package/vue3-draggable" target="_blank">"vue3-draggable": "^2.0.9"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>@vuelidate/core</td>
+                                                                <td><a href="https://www.npmjs.com/package/@vuelidate/core" target="_blank">"@vuelidate/core": "^2.0.0-alpha.34"</a></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>vuex</td>
+                                                                <td><a href="https://www.npmjs.com/package/vuex" target="_blank">"vuex": "^4.0.2</a></td>
+                                                            </tr>
+                                                        </tbody>
+
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- end card -->
+                        </div>
+                    </div>
+                    <!-- end row -->
+
+                </div> <!-- container-fluid -->
+            </div>
+            <!-- End Page-content -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <script>document.write(new Date().getFullYear())</script> © Themesbrand.
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-right d-none d-sm-block">
+                                Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="https://themesbrand.com/" target="_blank" class="text-muted">Themesbrand</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- end main content-->
+
+    </div>
+    <!-- END layout-wrapper -->
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/jquery.easing/jquery.easing.min.js"></script>
+
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
